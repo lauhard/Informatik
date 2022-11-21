@@ -15,11 +15,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "wechselautomat", "wechselau
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "punkteabstand", "punkteabstand\punkteabstand.csproj", "{91AC4757-4B18-45BD-876C-80A3D6980BEE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "punkteabstand_unterricht", "abstand_punkte_unterricht\punkteabstand_unterricht.csproj", "{3B2A22CB-D8AA-430D-B22A-F4D9EB458B09}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "schaltjahr_unterricht", "schaltjahr_unterricht\schaltjahr_unterricht.csproj", "{97A080E5-918E-4D80-A450-6484A6429A8A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wechselautomat_hausübung", "wechselautomat_hausübung\wechselautomat_hausübung.csproj", "{39EA162C-1799-4D9A-B2BA-00530DE06250}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "punkteabstand_unterricht", "punkteabstand_unterricht\punkteabstand_unterricht.csproj", "{BC13C602-A59A-4F56-A8DB-CB51B5FE25C7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,10 +51,6 @@ Global
 		{91AC4757-4B18-45BD-876C-80A3D6980BEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91AC4757-4B18-45BD-876C-80A3D6980BEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91AC4757-4B18-45BD-876C-80A3D6980BEE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3B2A22CB-D8AA-430D-B22A-F4D9EB458B09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3B2A22CB-D8AA-430D-B22A-F4D9EB458B09}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3B2A22CB-D8AA-430D-B22A-F4D9EB458B09}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3B2A22CB-D8AA-430D-B22A-F4D9EB458B09}.Release|Any CPU.Build.0 = Release|Any CPU
 		{97A080E5-918E-4D80-A450-6484A6429A8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{97A080E5-918E-4D80-A450-6484A6429A8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97A080E5-918E-4D80-A450-6484A6429A8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -63,6 +59,10 @@ Global
 		{39EA162C-1799-4D9A-B2BA-00530DE06250}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{39EA162C-1799-4D9A-B2BA-00530DE06250}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{39EA162C-1799-4D9A-B2BA-00530DE06250}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC13C602-A59A-4F56-A8DB-CB51B5FE25C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC13C602-A59A-4F56-A8DB-CB51B5FE25C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC13C602-A59A-4F56-A8DB-CB51B5FE25C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC13C602-A59A-4F56-A8DB-CB51B5FE25C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
