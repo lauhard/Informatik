@@ -3,17 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "punkteabstand", "bsp1\punkteabstand.csproj", "{F91E3393-C5D0-431B-AB1F-A02C3C218D20}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "schaltjahr", "schaltjahr\schaltjahr.csproj", "{4EC91B2D-B523-4681-96AB-FC7E78F822D6}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "mitttelwert", "mitttelwert\mitttelwert.csproj", "{91A7C955-8370-4FC1-B072-384FC56D0141}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "kleines_1x1", "kleines_1x1\kleines_1x1.csproj", "{85C74BDB-7669-4B0F-8EBF-E9C20D658E2D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "schachbrett", "schachbrett\schachbrett.csproj", "{58F93760-B791-4B61-9FC2-9F2AE6A7B802}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "schachbrett", "schachbrett\schachbrett.csproj", "{58F93760-B791-4B61-9FC2-9F2AE6A7B802}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wechselautomat", "wechselautomat\wechselautomat.csproj", "{C390A677-89DB-4FEB-A231-9C90479E6498}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "wechselautomat", "wechselautomat\wechselautomat.csproj", "{C390A677-89DB-4FEB-A231-9C90479E6498}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "punkteabstand", "punkteabstand\punkteabstand.csproj", "{91AC4757-4B18-45BD-876C-80A3D6980BEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "punkteabstand_unterricht", "abstand_punkte_unterricht\punkteabstand_unterricht.csproj", "{3B2A22CB-D8AA-430D-B22A-F4D9EB458B09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "schaltjahr_unterricht", "schaltjahr_unterricht\schaltjahr_unterricht.csproj", "{97A080E5-918E-4D80-A450-6484A6429A8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wechselautomat_hausübung", "wechselautomat_hausübung\wechselautomat_hausübung.csproj", "{39EA162C-1799-4D9A-B2BA-00530DE06250}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,10 +27,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F91E3393-C5D0-431B-AB1F-A02C3C218D20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F91E3393-C5D0-431B-AB1F-A02C3C218D20}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F91E3393-C5D0-431B-AB1F-A02C3C218D20}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F91E3393-C5D0-431B-AB1F-A02C3C218D20}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4EC91B2D-B523-4681-96AB-FC7E78F822D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4EC91B2D-B523-4681-96AB-FC7E78F822D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4EC91B2D-B523-4681-96AB-FC7E78F822D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -45,6 +47,22 @@ Global
 		{C390A677-89DB-4FEB-A231-9C90479E6498}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C390A677-89DB-4FEB-A231-9C90479E6498}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C390A677-89DB-4FEB-A231-9C90479E6498}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91AC4757-4B18-45BD-876C-80A3D6980BEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91AC4757-4B18-45BD-876C-80A3D6980BEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91AC4757-4B18-45BD-876C-80A3D6980BEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91AC4757-4B18-45BD-876C-80A3D6980BEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B2A22CB-D8AA-430D-B22A-F4D9EB458B09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B2A22CB-D8AA-430D-B22A-F4D9EB458B09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B2A22CB-D8AA-430D-B22A-F4D9EB458B09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B2A22CB-D8AA-430D-B22A-F4D9EB458B09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97A080E5-918E-4D80-A450-6484A6429A8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97A080E5-918E-4D80-A450-6484A6429A8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97A080E5-918E-4D80-A450-6484A6429A8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97A080E5-918E-4D80-A450-6484A6429A8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39EA162C-1799-4D9A-B2BA-00530DE06250}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39EA162C-1799-4D9A-B2BA-00530DE06250}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39EA162C-1799-4D9A-B2BA-00530DE06250}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39EA162C-1799-4D9A-B2BA-00530DE06250}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

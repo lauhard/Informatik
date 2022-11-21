@@ -5,6 +5,7 @@ Console.WriteLine("Vergleiche Distanz 2er Punkte im Raun D2");
 do
 {
     Console.WriteLine("Geben Sie die (X,Y) Koordinaten für den 1. Punkt ein:");
+    // um das erstellen der Punkte nicht so oft schreiben zu müssen, habe ich hier eien methode gemacht
     var p1 = createPoint();
 
     Console.WriteLine("Geben Sie die (X,Y) Koordinaten für den 2. Punkt ein:");
@@ -40,6 +41,12 @@ static string? read() => Console.ReadLine();
 static string getCultureInfo() => CultureInfo.CurrentCulture.Name;
 static string convertCultureInfo(string str) => getCultureInfo().Split("-")[0].ToLower() == "de" ? str.Replace(".", ",") : str.Replace(",", ".");
 static void changeColor(ConsoleColor c) => Console.ForegroundColor = c;
+///<summary>
+///
+/// </summary>
+/// <param name="x">X Koordinate </param>
+/// <param name="y">Y Koordinate </param>
+/// <returns>dynamic tuple as point </returns>
 static (double x, double y)? createPoint()
 {
     try
