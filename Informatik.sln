@@ -15,11 +15,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "wechselautomat", "wechselau
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "punkteabstand", "punkteabstand\punkteabstand.csproj", "{91AC4757-4B18-45BD-876C-80A3D6980BEE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "schaltjahr_unterricht", "schaltjahr_unterricht\schaltjahr_unterricht.csproj", "{97A080E5-918E-4D80-A450-6484A6429A8A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "schaltjahr_unterricht", "schaltjahr_unterricht\schaltjahr_unterricht.csproj", "{97A080E5-918E-4D80-A450-6484A6429A8A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wechselautomat_hausübung", "wechselautomat_hausübung\wechselautomat_hausübung.csproj", "{39EA162C-1799-4D9A-B2BA-00530DE06250}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "wechselautomat_hausübung", "wechselautomat_hausübung\wechselautomat_hausübung.csproj", "{39EA162C-1799-4D9A-B2BA-00530DE06250}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "punkteabstand_unterricht", "punkteabstand_unterricht\punkteabstand_unterricht.csproj", "{BC13C602-A59A-4F56-A8DB-CB51B5FE25C7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PowerRecursive", "PowerRecursive\PowerRecursive.csproj", "{80A577EE-8CBD-421A-8227-CC97EF25407B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ziffernsumme", "Ziffernsumme\Ziffernsumme.csproj", "{BAC084E8-C216-489A-AC4F-1F5EE12371E8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Schnittpunkt_berechnen", "Schnittpunkt_berechnen\Schnittpunkt_berechnen.csproj", "{25CEEA83-0086-44FC-B057-D9E44D4D4369}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GetSumDiv7Recursive", "GetSumDiv7Recursive\GetSumDiv7Recursive.csproj", "{13796FFA-5070-4995-828B-EA73EC58E670}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitsErmitteln", "BitsErmitteln\BitsErmitteln.csproj", "{710A26FA-06FE-4C43-92FB-A0208ECC1091}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +73,26 @@ Global
 		{BC13C602-A59A-4F56-A8DB-CB51B5FE25C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC13C602-A59A-4F56-A8DB-CB51B5FE25C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC13C602-A59A-4F56-A8DB-CB51B5FE25C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80A577EE-8CBD-421A-8227-CC97EF25407B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80A577EE-8CBD-421A-8227-CC97EF25407B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80A577EE-8CBD-421A-8227-CC97EF25407B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80A577EE-8CBD-421A-8227-CC97EF25407B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAC084E8-C216-489A-AC4F-1F5EE12371E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAC084E8-C216-489A-AC4F-1F5EE12371E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAC084E8-C216-489A-AC4F-1F5EE12371E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAC084E8-C216-489A-AC4F-1F5EE12371E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25CEEA83-0086-44FC-B057-D9E44D4D4369}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25CEEA83-0086-44FC-B057-D9E44D4D4369}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25CEEA83-0086-44FC-B057-D9E44D4D4369}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25CEEA83-0086-44FC-B057-D9E44D4D4369}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13796FFA-5070-4995-828B-EA73EC58E670}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13796FFA-5070-4995-828B-EA73EC58E670}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13796FFA-5070-4995-828B-EA73EC58E670}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13796FFA-5070-4995-828B-EA73EC58E670}.Release|Any CPU.Build.0 = Release|Any CPU
+		{710A26FA-06FE-4C43-92FB-A0208ECC1091}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{710A26FA-06FE-4C43-92FB-A0208ECC1091}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{710A26FA-06FE-4C43-92FB-A0208ECC1091}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{710A26FA-06FE-4C43-92FB-A0208ECC1091}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
